@@ -1,50 +1,83 @@
-footer {
-	background-color: #333;
-	color: white;
-	padding: 20px;
-	text-align: center;
+body {
+  font-family: Lato, sans-serif;
 }
 
 h1 {
-    text-align: center;
+  width: 100%; 
+  font-weight: lighter; 
+  text-align: center;
+  font-size: 40px;
+  color: indianred;
 }
 
-body {
-    font-family: Calibri, Arial, sans-serif;
+h2 {
+  display: inline-block;
+  text-align: center;
+  background-color: indianred;
+  padding: 3px; 
+  margin: 5px;
+  font-size: 28px;
+  color: white;
 }
 
-html {
-    font-family: Calibri;
+h3 {
+display: inline-block;
+font-weight: bold;
+background-color: white;
+text-align: center;
+padding: 10px;
+color: indianred;
 }
 
-
-header {
-    border: 5px solid black;
-    background-color: #D3D3D3;
-    border-color: black;
-    height: 100px;
+.container {
+  min-width: 775px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-nav {
-    border: 5px solid #e7c157;
-    background-color: #FFFF6C;
-    height: 150px;
+.main {
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://abload.de/img/hamburgvyk99.jpg");
 }
 
-main {
-	border: 5px solid #df6c20;
-	background-color: white;
-	height: 400px;
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
 }
 
-aside {
-	border: 5px solid #8db243;
-	background-color: #D2D2D2;
-	height: 50px;
+.more div {
+  background-size: cover;
+  min-width: 450px;
+  min-height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-footer {
-	border: 5px solid #C8C8C8;
-	background-color: #81AAEF;
-	height: 50px;
+#sights { 
+  background-image: url("https://abload.de/img/sehenswuerdigkeiteng6jig.jpg");
+}
+
+#events { 
+  background-image: url("https://abload.de/img/veranstaltungensbjlz.jpg");
+}
+
+#footer {
+  text-align: center;
+  color: indianred;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 50px;
 }
